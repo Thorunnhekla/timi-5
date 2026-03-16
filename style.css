@@ -1,0 +1,78 @@
+/* nota # þegar element er með id*/
+/* nota . þegar element er með class*/
+
+html {
+  scroll-behavior: smooth;
+  background-color: pink;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  background-color: rgb(244, 151, 166);
+  padding: 16px;
+}
+
+a {
+  color: black;
+  background-color: rgb(245, 85, 112);
+  padding: 12px;
+  border-radius: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: white;
+}
+
+.ummig {
+  padding: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hobbies {
+  margin: 16px;
+  background-color: rgb(162, 111, 210);
+  padding: 16px;
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px dotted black;
+}
+
+#gallery {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#section-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 3px black solid;
+  background-color: rgb(131, 131, 244);
+  margin: 20px;
+}
+
+footer {
+  background-color: pink;
+}
+
+footer > p {
+  color: white;
+}
+
+.topsection {
+  display: flex;
+}
+
+#section-2 {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
